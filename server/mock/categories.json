@@ -1,0 +1,6 @@
+[
+  { "_id": "cat01", "name": "Новинки", "link": "new" },
+  { "_id": "cat02", "name": "Популярные", "link": "hits" },
+  { "_id": "cat03", "name": "Бесплатные", "link": "free" },
+  { "_id": "cat04", "name": "Платные", "link": "sale" }
+]

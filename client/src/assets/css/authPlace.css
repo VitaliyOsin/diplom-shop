@@ -1,0 +1,54 @@
+.authCard {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  width: 300px;
+  padding: 15px;
+  box-shadow: 5px 5px 5px #eee;
+  padding-bottom: 30px;
+}
+
+.auth-input {
+  outline: none;
+  height: 35px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-left: 15px;
+  font-family: inherit;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.failed {
+  border-color: #ff0000;
+}
+
+.red-text {
+  color: #ff0000;
+  font-size: 12px;
+}
+
+.authCard form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.show-password {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 35px;
+  height: 35px;
+  background-color: #99cc33;
+  border-radius: 7px;
+  border: 1px solid #99cc33;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

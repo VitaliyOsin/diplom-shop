@@ -1,0 +1,23 @@
+{
+  "_id": "gk1",
+  "name": "Горка 1",
+  "title": "Горка 1",
+  "h3name": "Горка большая.",
+  "describtion": "Проект большой горки с чертежами и картами раскроя.",
+  "img": "1.jpg",
+  "imgArr": [1],
+  "anons": "Проект большой горки с чертежами и картами раскроя.",
+  "content": "Проект большой горки с чертежами и картами раскроя.",
+  "gabarit": { "h": 800, "w": 600, "l": 220 },
+  "dgNumber": "",
+  "visible": true,
+  "hits": false,
+  "new": true,
+  "sale": false,
+  "price": 0,
+  "date": "2016-03-12",
+  "fileSize": "314Kb",
+  "filePages": 20,
+  "optraskroy": "",
+  "free": true
+}
