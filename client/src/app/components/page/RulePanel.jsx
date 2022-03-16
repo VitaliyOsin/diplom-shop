@@ -91,13 +91,6 @@ const RulePanel = () => {
       );
     case "logout":
       dispatch(logOut());
-      return (
-        <div>
-          <h3>Logout.</h3>
-          <p>{item}</p>
-          <BackBtn />
-        </div>
-      );
     default:
       break;
   }
