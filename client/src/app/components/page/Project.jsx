@@ -83,12 +83,12 @@ const Project = () => {
           <div style={{ textAlign: "center" }}>
             {pinfo.free ? (
               <DownloadBtn
-                link={`/download/${id}`}
+                link={`/`}
                 text={`Скачать \n  бесплатно`}
               />
             ) : (
               <DownloadBtn
-                link={`/download/${id}`}
+                link={`/`}
                 text={`Купить      \n ${pinfo.price} руб.`}
               />
             )}
