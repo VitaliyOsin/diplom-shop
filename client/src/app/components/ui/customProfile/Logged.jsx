@@ -16,6 +16,9 @@ const Logged = () => {
         <li>
           <Link to="/rulepanel">Панель управления</Link>
         </li>
+        <li>
+          <Link to="/rulepanel/logout">Выйти</Link>
+        </li>
       </ul>
     </>
   );

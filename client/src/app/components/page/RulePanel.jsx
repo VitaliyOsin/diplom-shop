@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from "react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { getProjects, getProjectsLoadingStatus } from "../../store/projects";
 import Loader from "../ui/Loader";
 import { useParams, Link } from "react-router-dom";
 import { getCatalog, getCatalogLoadingStatus } from "../../store/catalog";
-import { getUsersList, getUsersLoadingStatus } from "../../store/users";
+import { getUsersList, getUsersLoadingStatus, logOut } from "../../store/users";
 import BackBtn from "../ui/BackBtn";
 
 const RulePanel = () => {
+  const dispatch = useDispatch();
   const { item } = useParams();
   const titleObj = {
     projects: "Проекты",
@@ -84,6 +85,15 @@ const RulePanel = () => {
       return (
         <div>
           <h3>Редактировать.</h3>
+          <p>{item}</p>
+          <BackBtn />
+        </div>
+      );
+    case "logout":
+      dispatch(logOut());
+      return (
+        <div>
+          <h3>Logout.</h3>
           <p>{item}</p>
           <BackBtn />
         </div>
